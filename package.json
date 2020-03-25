@@ -1,0 +1,23 @@
+{
+  "name": "manage-landing-page-master",
+  "version": "1.0.0",
+  "description": "Manage Landing Page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucascumsille/Manage-Landing.git"
+  },
+  "author": "Lucas Cumsille",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucascumsille/Manage-Landing/issues"
+  },
+  "homepage": "https://github.com/lucascumsille/Manage-Landing#readme",
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "owl.carousel": "^2.3.4"
+  }
+}
