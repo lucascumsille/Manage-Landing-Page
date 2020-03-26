@@ -1,0 +1,3 @@
+input[aria-invalid="true"], textarea[aria-invalid="true"] {
+    color: rgba(247, 37, 22, 0.767);
+  }
