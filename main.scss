@@ -40,10 +40,10 @@ $font-size-base:              1rem !default; // Assumes the browser default, typ
 $font-size-lg:                $font-size-base * 1.25 !default;
 $font-size-sm:                $font-size-base * .275 !default;
 
-$h1-font-size:                $font-size-base * 4.5 !default;
-$h2-font-size:                $font-size-base * 3 !default;
+$h1-font-size:                $font-size-base * 3.3 !default;
+$h2-font-size:                $font-size-base * 2.3 !default;
 $h3-font-size:                $font-size-base * 2.75 !default;
-$h4-font-size:                $font-size-base * 1.5 !default;
+$h4-font-size:                $font-size-base * 1 !default;
 $h5-font-size:                $font-size-base * 1.25 !default;
 $h6-font-size:                $font-size-base !default;
 
@@ -115,6 +115,14 @@ $breakpoint-pattern: 645px;
     }
     .desktop {
         display: none;
+    }
+}
+
+.narrow-paragraph {
+    max-width: 80%;
+
+    @media (max-width: $breakpoint) {
+        max-width: 100%;
     }
 }
 
@@ -218,6 +226,7 @@ $shadow: 0px 5px 15px 1px $light-red-dark;
         width: 95%;
         max-height: 350px;
     }
+
 }
 
 .bg-tablet-pattern-mobile {
@@ -238,6 +247,8 @@ $shadow: 0px 5px 15px 1px $light-red-dark;
 
 }
 
+
+
 /* USP */
 
 .usp-pattern-contanier{
@@ -252,6 +263,7 @@ $shadow: 0px 5px 15px 1px $light-red-dark;
     width: 660px;
     height: 550px;
     bottom: -180px;
+    z-index: -1;
 
 
     @media (max-width: $breakpoint-pattern) {
@@ -348,6 +360,14 @@ $shadow: 0px 5px 15px 1px $light-red-dark;
     right: 0px;
     
 } 
+
+.margin-top-desktop {
+    margin-top: 132px;
+
+    @media (max-width: $breakpoint) {
+        margin-top: 0;
+    }
+}
 
 /* FOOTER */
 
