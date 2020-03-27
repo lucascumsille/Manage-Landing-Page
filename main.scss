@@ -535,13 +535,15 @@ footer {
             grid-column-end: span 1;
             grid-row-start: 2;
             grid-row-end: 2;
+            justify-self: end;
         }
         .third-column { 
             grid-column-start: 2;
             grid-column-end: span 1;
             grid-row-start: 2;
             grid-row-end: 2;
-            width: 100%;
+            justify-self: start;
+            margin-left: 50px;
         }
     
         .fourth-column-a {
@@ -550,6 +552,7 @@ footer {
             grid-row-start: 1;
             grid-row-end: 1;
             justify-self: stretch;
+            margin: auto;
         }
         .fourth-column-b {
             grid-column-start: 1;
@@ -572,16 +575,17 @@ footer {
 
     }
 
-    .col-2 {
+    .social-icon {
 
         max-width: 20%;
-        flex: 0 0 20%;
+        width: auto;
+        flex: 0 0 0;
+        margin: 7px;
     }
 
     .row {
         margin-right: 0px;
         margin-left: 0px;
-        text-align: center;
     }
 
     .last-item-list {
@@ -589,6 +593,9 @@ footer {
     }
 
 }
+
+
+
 
 .attribution {
     background-color: $secondary;
