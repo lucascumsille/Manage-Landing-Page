@@ -30,7 +30,8 @@ $spacers: (
   3: $spacer,
   4: $spacer * 1.5,
   5: $spacer * 3,
-  6: $spacer * 4.6875 /* Usually used for the container padding*/
+  6: $spacer * 4.6875, /* Usually used for the container padding*/
+  7: $spacer * .7
 ) !default;
 
 
@@ -535,7 +536,7 @@ footer {
             grid-column-end: span 1;
             grid-row-start: 2;
             grid-row-end: 2;
-            justify-self: end;
+            justify-self: center;
         }
         .third-column { 
             grid-column-start: 2;
